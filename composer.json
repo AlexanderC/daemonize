@@ -1,0 +1,25 @@
+{
+  "name": "AlexanderC/bmc-daemonize",
+  "description": "A fork of bmc/daemonize with composer support",
+  "type": "metapackage",
+  "authors": [
+    {
+      "name": "AlexanderC",
+      "email": "self@alexanderc.me"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "": ""
+    }
+  },
+  "bin": ["sbin/daemonize"],
+  "scripts": {
+    "post-install-cmd": [
+       "Installer::install"
+     ],
+    "post-update-cmd": [
+        "Installer::update"
+    ]
+  }
+}
