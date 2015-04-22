@@ -6,7 +6,7 @@
  * Time: 14:39
  */
 
-use Composer\Script\Event;
+use Composer\Installer\PackageEvent as Event;
 use Composer\IO\IOInterface;
 
 /**
