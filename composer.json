@@ -15,10 +15,10 @@
   },
   "bin": ["sbin/daemonize"],
   "scripts": {
-    "post-package-install": [
+    "post-install-cmd": [
        "Installer::install"
      ],
-    "post-package-update": [
+    "post-update-cmd": [
         "Installer::update"
     ]
   }
